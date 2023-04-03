@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'titania';
+  src: url(../src/assets/fonts/Titania-Regular.ttf) }
+
+@font-face {
+  font-family: 'titania-outline';
+  src: url(../src/assets/fonts/Titania-Outline.ttf); }
+
+@font-face {
+  font-family: 'titania-shadow';
+  src: url(../src/assets/fonts/Titania-Shadow.ttf); }
+
+
+:root {
+    --bwhite: #F2EEE9;
+    --mate: #E8DEC6;
+    --hmate: #D4D0BB;
+    --black: #282031;
+    --grey: #24A68E;
+    --hgrey: #125952;
+    --highlight: #F2BF91;
+    --shigh:#EFD550;
+    --blue:#593a85;
+    --mag: #06ABBA;
+    --dhigh: #9B5506;
+}
+
+main {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav-cont {
+  
+  width: 90%;
+  background-color: var(--hmate);
+  padding: 25px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  
+  border-radius: 25px;
+}
+
+
+
+.logo {
+  width: 30%;
+  font-family: 'Titania-Shadow';
+  font-size: 90px;
+  color: var(--black);
+  align-items: start;
+  margin: 0 0;
+}
+
+.botonera {
+  width: 70%;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
+
+.botonera a {
+  
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: 'Titania';
+  text-transform: uppercase;
+  color: var(--hgrey);
+  font-size: 20px;
+  transition: 1s ease;
+  
+}
+
+.botonera a:hover {
+  transform: scale(1.1);
+  color: var(--dhigh);
+}
+
+.cart-icon {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  transition: 1s ease;
+  
+}
+
+
+
+.cart-icon a svg {
+
+  transition: 1s ease;
+}
+
+.cart-icon a svg:hover {
+  stroke: var(--blue);
+  box-shadow: 0px 0px 20px 10px var(--highlight);
+  background-color: var(--highlight);
+}
+
+.counter {
+  width: 20px;
+  height: 20px;
+  background-color: var(--dhigh);
+  border-radius: 100%;
+  z-index: 10;
+  position: absolute;
+  padding: 5px;
+  font-family: 'Titania';
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: translateX(20px) translateY(20px);
+}
+
+.item-cont {
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+  height: 700px;
+  background-color: var(--grey);
+
+}
+
+.saludo h3 {
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 40px;
+ margin-top: 0px;
+ 
+}
+
+.saludo span {
+  font-family: 'Titania';
+  font-size: 70px;
+}
