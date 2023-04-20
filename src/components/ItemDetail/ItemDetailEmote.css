@@ -1,0 +1,96 @@
+.detail-emotes{
+    width: 100%;
+    height: fit-content;
+    background: rgb(108,0,99);
+    background: linear-gradient(0deg, rgba(108,0,99,1) 4%, rgba(255,85,228,1) 48%, rgba(93,255,222,1) 100%); 
+    border-radius: 25px;
+
+    padding: 20px;
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    
+    border: 5px solid var(--black);
+}
+
+.detail-emotes img {
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    border: 3px solid var(--bwhite);
+}
+
+.detail-emotes .detail {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.detail-emotes h3 {
+    font-family: 'titania';
+    font-weight: 700;
+    font-size: 70px;
+    color: #282031;
+    
+    transition: 1s ease;
+    cursor: default;
+}
+
+.detail-emotes h3:hover {
+    text-shadow: 2.5px 2.5px white;
+
+}
+
+.detail-emotes h4 {
+    width: fit-content;
+    height:fit-content ;
+    padding:  5px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F2EEE9;
+    background-color:#3f334d;
+
+    font-weight: 900;
+    cursor: default;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.detail-emotes p {
+    margin-top: 20px;
+    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    font-size: 18px;
+    color: black;
+    text-align: start;
+    height: 200px;
+}
+
+.detail-emotes .precio-det {
+   
+   
+   box-shadow: 0px -3px 2px whitesmoke;
+
+  
+   transition: 0.1s ease-in;
+}
+
+.detail-emotes .precio-det:hover {
+    box-shadow: 0px 3px 3px whitesmoke;
+
+}
+
+.detail-emotes .precio-det h5{
+    font-family: 'Titania';
+    font-size: 30px;
+    margin: 0px;
+}

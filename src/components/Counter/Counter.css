@@ -1,0 +1,27 @@
+.counterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    
+  }
+  
+  .counterContainer button {
+    padding: 3px;
+    height: fit-content; 
+    
+  }
+  
+  
+  
+  .numberCont p {
+    width: 35px;
+    height: 35px;
+    background-color: var(--hmate);
+    text-align: center;
+    
+    font-family: 'Titania';
+    color: var(--hgrey);
+    margin: 10px;
+  }

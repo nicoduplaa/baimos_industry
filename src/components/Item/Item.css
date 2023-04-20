@@ -1,0 +1,117 @@
+.item-cont {
+    width: fit-content;
+    height: fit-content;
+   
+    
+}
+
+.item-cont .img-card {
+    width: 370px;
+    height: 400px;
+    border: 3px solid #282031;
+
+    
+}
+
+
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    height: 390px;
+}
+
+.card-text .precio {
+    margin-top: 240px;
+    cursor: default;
+}
+
+.card-text .card-title {
+    font-family: 'titania';
+    font-size: 40px;
+    cursor: default;
+   
+}
+
+.sub-cont {
+    width: fit-content;
+    height:fit-content ;
+    padding: 0px 5px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.sub-cont .series {
+    font-size: 15px;
+    margin: 5px auto;
+    font-weight: 700;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+/* emotes Series */
+
+
+.emotes .sub-cont {
+    color: #F2EEE9;
+    background-color:#3f334da9;
+
+}
+
+
+.emotes .card-title {
+    color: #282031;
+}
+
+/* kitten Series */
+
+
+.kitten .sub-cont {
+    background-color:#7204609f;
+    color: #F2EEE9;
+}
+
+
+.kitten .card-title {
+    font-family: 'Rubik Bubbles', cursive;
+    color: #b6179b;
+}
+
+/* pirate Series */
+
+.pirate .sub-cont {
+    background-color:#4b0101b9;
+    color: #F2EEE9;
+}
+
+
+.pirate .card-title {
+    font-family: 'Rye', cursive;
+    color: #9b0606;
+}
+
+/* divine Series */
+
+.divine .sub-cont {
+    background-color:#efd450a8;
+    color: #282031;
+}
+
+
+.divine .card-title {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 33px;
+    color: #EFD550;
+    text-shadow: 8px 8px 8px black;
+}
+

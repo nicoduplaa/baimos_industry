@@ -1,20 +1,36 @@
-import { useState } from 'react'
+
+import {BrowserRouter, Navigate, Route, Routes} from  'react-router-dom';
 
 import './App.css'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import NavBar from './components/NavBar/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
+import NavBarBt from './components/NavBar/NavBarBt';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  
 
   return (
-    <div className="App">
-        <main>
-        <NavBar />
-        <ItemListContainer />
-        </main>
+    <BrowserRouter>
+
+        <NavBarBt />
+
+        <Routes>
+          <Route path='/' element = {<ItemListContainer />} />
+          <Route path='/categoria/:cid' element = {<ItemListContainer />} />
+
+          <Route path='/detail/:pid' element = { <ItemDetailContainer />} />
+
+          <Route path='*' element = { <Navigate to = '/' />} />
         
-    </div>
+        </Routes>
+        
+        
+    </BrowserRouter>
   )
 }
 
