@@ -3,7 +3,7 @@
     height: fit-content;
     /* background: rgb(19,0,24);
     background: linear-gradient(0deg, rgba(19,0,24,1) 15%, rgba(0,76,110,1) 41%, rgba(16,0,31,1) 67%);  */
-    background-image: url(../../../public/fondos/pattern_9.png);
+    background-image: url(/fondos/pattern_9.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 10%;

@@ -4,7 +4,7 @@
     /* background: rgb(108,0,99);
     background: linear-gradient(0deg, rgba(108,0,99,1) 4%, rgba(255,85,228,1) 48%, rgba(93,255,222,1) 100%);  */
 
-    background-image: url(../../../public/fondos/pattern_6.png);
+    background-image: url(/fondos/pattern_6.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
