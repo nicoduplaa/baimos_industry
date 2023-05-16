@@ -1,0 +1,22 @@
+.counter {
+    width: 35px;
+    height: 35px;
+    background-color: var(--dhigh);
+    border-radius: 100%;
+    z-index: 10;
+    position: absolute;
+
+    font-family: 'Titania';
+    font-size: 20px;
+    color: wheat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transform: translateX(20px) translateY(20px);
+  }
+
+  .counter p {
+    transform: translateY(7px);
+  }

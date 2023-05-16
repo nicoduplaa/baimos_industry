@@ -1,8 +1,12 @@
 .detail-pirate{
     width: 100%;
     height: fit-content;
-    background: rgb(32,0,0);
-    background: linear-gradient(0deg, rgba(32,0,0,1) 0%, rgba(145,0,0,1) 61%, rgba(160,255,245,1) 100%); 
+    /* background: rgb(32,0,0);
+    background: linear-gradient(0deg, rgba(32,0,0,1) 0%, rgba(145,0,0,1) 61%, rgba(160,255,245,1) 100%);  */
+    background-image: url(../../../public/fondos/pattern_8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 85%;
     border-radius: 25px;
 
     padding: 20px;
@@ -34,9 +38,10 @@
 
 .detail-pirate h3 {
     font-family: 'Rye', cursive;
-    color: #9b0606;
+    color: #fff9aa;
     font-weight: 700;
     font-size: 70px;
+    text-shadow: 0px 0px 15px black, 0px 0px 20px #081826;
     
     
     transition: 1s ease;
@@ -44,7 +49,7 @@
 }
 
 .detail-pirate h3:hover {
-    text-shadow: 0px 6px white;
+    text-shadow: 0px 0px 10px black, 0px 0px 15px #155259;
 
 }
 
@@ -58,40 +63,31 @@
     align-items: center;
     justify-content: center;
 
-    background-color:#4b0101b9;
-    color: #F2EEE9;
+    background-color:#fff9aa;
+    color: var(--black);
 
     font-weight: 900;
     cursor: default;
     text-transform: uppercase;
     cursor: pointer;
+    opacity: 80%;
+}
+
+.detail-pirate h4:hover {
+    opacity: 100%;
 }
 
 .detail-pirate p {
     margin-top: 20px;
-    height: 200px;
-    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
-    color: white;
-    text-align: start;
-    font-size: 18px;
-}
-
-.detail-pirate .precio-det {
-   
-   
-   box-shadow: 0px -3px 2px whitesmoke;
-
-  
-   transition: 0.1s ease-in;
-}
-
-.detail-pirate .precio-det:hover {
-    box-shadow: 0px 3px 3px whitesmoke;
-
-}
-
-.detail-pirate .precio-det h5{
+    /* font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; */
     font-family: 'Titania';
     font-size: 30px;
-    margin: 0px;
+    color: var(--bwhite);
+    text-align: start;
+    height: 200px;
+    background-color: rgba(16, 2, 37, 0.459) ;
+    text-shadow: 0px 0px 10px  black;
+    padding: 10px;
+    border-radius: 25px;   
 }
+

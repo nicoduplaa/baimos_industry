@@ -51,7 +51,9 @@ function NavBarBt() {
           </Nav>
 
           <Nav>
-            <CartWidget />
+            <Link to = '/cart'>
+              <CartWidget />
+            </Link>
           </Nav>
 
         </Navbar.Collapse>

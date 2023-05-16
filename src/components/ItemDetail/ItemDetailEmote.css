@@ -1,8 +1,14 @@
 .detail-emotes{
     width: 100%;
     height: fit-content;
-    background: rgb(108,0,99);
-    background: linear-gradient(0deg, rgba(108,0,99,1) 4%, rgba(255,85,228,1) 48%, rgba(93,255,222,1) 100%); 
+    /* background: rgb(108,0,99);
+    background: linear-gradient(0deg, rgba(108,0,99,1) 4%, rgba(255,85,228,1) 48%, rgba(93,255,222,1) 100%);  */
+
+    background-image: url(../../../public/fondos/pattern_6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
     border-radius: 25px;
 
     padding: 20px;
@@ -36,14 +42,14 @@
     font-family: 'titania';
     font-weight: 700;
     font-size: 70px;
-    color: #282031;
-    
+    color: #EAF2AE;
+    text-shadow: 0px 0px 40px black;
     transition: 1s ease;
     cursor: default;
 }
 
 .detail-emotes h3:hover {
-    text-shadow: 2.5px 2.5px white;
+    text-shadow: 3px 3px black;
 
 }
 
@@ -57,40 +63,31 @@
     align-items: center;
     justify-content: center;
 
-    color: #F2EEE9;
-    background-color:#3f334d;
+    color: var(--black);
+    background-color:#EAF2AE;
 
     font-weight: 900;
     cursor: default;
     text-transform: uppercase;
     cursor: pointer;
+    opacity: 80%;
+}
+
+.detail-emotes h4:hover {
+    opacity: 100%;
 }
 
 .detail-emotes p {
     margin-top: 20px;
-    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
-    font-size: 18px;
-    color: black;
-    text-align: start;
-    height: 200px;
-}
-
-.detail-emotes .precio-det {
-   
-   
-   box-shadow: 0px -3px 2px whitesmoke;
-
-  
-   transition: 0.1s ease-in;
-}
-
-.detail-emotes .precio-det:hover {
-    box-shadow: 0px 3px 3px whitesmoke;
-
-}
-
-.detail-emotes .precio-det h5{
+    /* font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; */
     font-family: 'Titania';
     font-size: 30px;
-    margin: 0px;
+    color: var(--bwhite);
+    text-align: start;
+    height: 200px;
+    background-color: rgba(16, 2, 37, 0.459) ;
+    text-shadow: 0px 0px 10px  black;
+    padding: 10px;
+    border-radius: 25px;  
 }
+

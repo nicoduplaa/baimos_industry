@@ -13,12 +13,22 @@ export const formWithValidation = (WrappedComponent) => {
             let isValid = true
     
             if (!props.formData.name) {
-                newErrors.name = 'El Campo Name es Obligatorio'
+                newErrors.name = 'The name field is required'
+                isValid = false
+            }
+
+            if (!props.formData.tel) {
+                newErrors.tel = 'The phone field is required'
                 isValid = false
             }
     
             if (!props.formData.email) {
-                newErrors.email = 'El Campo E-mail es Obligatorio'
+                newErrors.email = 'The email field is required'
+                isValid = false
+            }
+
+            if (props.formData.email !== props.formData.repeatEmail) {
+                newErrors.repeatEmail = 'The email fields does not match'
                 isValid = false
             }
     

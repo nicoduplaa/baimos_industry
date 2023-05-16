@@ -1,8 +1,12 @@
 .detail-kitten{
     width: 100%;
     height: fit-content;
-    background: rgb(0,114,142);
-    background: linear-gradient(0deg, rgba(0,114,142,1) 0%, rgba(0,255,255,1) 100%); 
+    /* background: rgb(0,114,142);
+    background: linear-gradient(0deg, rgba(0,114,142,1) 0%, rgba(0,255,255,1) 100%);  */
+    background-image: url(../../../public/fondos/pattern_7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     border-radius: 25px;
 
     padding: 20px;
@@ -34,17 +38,17 @@
 
 .detail-kitten h3 {
     font-family: 'Rubik Bubbles', cursive;
-    color: #b6179b;
+    color: #0df8cd;
     font-weight: 700;
     font-size: 70px;
     
-    
+    text-shadow: 0px 0px 20px black;
     transition: 1s ease;
     cursor: default;
 }
 
 .detail-kitten h3:hover {
-    text-shadow: 0px 6px white;
+    text-shadow: 0px 6px black;
 
 }
 
@@ -58,40 +62,31 @@
     align-items: center;
     justify-content: center;
 
-    background-color:#7204609f;
-    color: #F2EEE9;
+    background-color:#0df8cd;
+    color: var(--black);
 
     font-weight: 900;
     cursor: default;
     text-transform: uppercase;
     cursor: pointer;
+    opacity: 80%;
+}
+
+.detail-kitten h4:hover {
+    opacity: 100%;
 }
 
 .detail-kitten p {
     margin-top: 20px;
-    height: 200px;
-    font-size: 18px;
-    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
-    color: white;
-    text-align: start;
-}
-
-.detail-kitten .precio-det {
-   
-   
-   box-shadow: 0px -3px 2px whitesmoke;
-
-  
-   transition: 0.1s ease-in;
-}
-
-.detail-kitten .precio-det:hover {
-    box-shadow: 0px 3px 3px whitesmoke;
-
-}
-
-.detail-kitten .precio-det h5{
+    /* font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; */
     font-family: 'Titania';
     font-size: 30px;
-    margin: 0px;
+    color: var(--bwhite);
+    text-align: start;
+    height: 200px;
+    background-color: rgba(16, 2, 37, 0.459) ;
+    text-shadow: 0px 0px 10px  black;
+    padding: 10px;
+    border-radius: 25px;  
 }
+

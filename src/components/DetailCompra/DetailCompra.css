@@ -1,0 +1,28 @@
+
+.detailCompraCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 500px;
+    background-color: var(--black);
+    padding: 20px 10px;
+    border-radius: 25px;
+    height: 90px;
+
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.endbuy {
+    font-family: 'Titania';
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    box-shadow: 0px -3px 2px whitesmoke;
+    transition: 0.1s ease-in;
+}
+
+.endbuy:hover {
+    box-shadow: 0px 3px 3px whitesmoke;
+}
